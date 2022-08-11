@@ -4,3 +4,8 @@ token:
 
 gateway:
   ip: 192.168.1.36
+
+spring:
+  datasource:  # 암호화 후 config server에 옮김
+    url: jdbc:h2:mem:testdb
+    driver-class-name: '{cypher}5ccf35d0344818f808efcab3f6f60a5c35d24a5654397817da78722a1041f653' #db name 암호화
