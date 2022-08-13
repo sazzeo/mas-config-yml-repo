@@ -1,6 +1,13 @@
+## gateway 제외 모든 마이크로 서비스 기본 설정
 token:
   expiration_time : 3600000
-  secret_key : user_token_change3 정보 변경
+  secret_key : user_token
 
 gateway:
   ip: 192.168.1.36
+
+server:
+  port: 0
+
+greeting:
+  message: Welcome to the Simple E-commerce.
