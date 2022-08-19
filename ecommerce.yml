@@ -6,5 +6,5 @@ token:
 gateway:
   ip: 192.168.1.36
 
-greeting:
-  message: Welcome to the Simple E-commerce.
+topics:
+  catalogs: example-catalog-topic
